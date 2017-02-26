@@ -105,40 +105,70 @@
 
 //Lecture: Booolen logic and Switch
 
-var age = 31;
+// var age = 31;
 
 
-if(age < 20){
-  console.log(' john is a teenager');
-} else if ( age >= 20 || age <30){
-  console.log('john is a young man');
-} else {
-  console.log('john is a man');
+// if(age < 20){
+//   console.log(' john is a teenager');
+// } else if ( age >= 20 || age <30){
+//   console.log('john is a young man');
+// } else {
+//   console.log('john is a man');
+// }
+
+
+// var job = 'teacher';
+
+// job = prompt('what does John do?');
+
+// switch(job){
+//   case 'teacher':
+//     console.log('John teaches kids');
+//     break;
+//   case 'diver':
+//     console.log(' john drives a cab in london');
+//     break;
+//   case 'cop':
+//     console.log('john helps fight crime');
+//     break;
+//   default:
+//     console.log('john does something else');
+// }
+
+
+var heightFriendOne = 163;
+var ageFriendOne = 25;
+
+var heightFriendTwo = 207;
+var ageFriendTwo = 35;
+
+var heightFriendThree = 300;
+var ageFriendThree = 45;
+
+//score = height + age * 5
+
+var kelly;
+var sally;
+var jason;
+
+kelly = heightFriendOne + ageFriendOne * 5;
+sally = heightFriendTwo + ageFriendTwo * 5;
+jason = heightFriendThree+ ageFriendThree * 5;
+console.log('kelly ' + kelly);
+console.log('sally ' + sally);
+console.log('jason ' + jason);
+
+if (kelly > sally && jason){
+  console.log('Kelly Wins with a score of ' + kelly);
+  
+} else if (sally > kelly && jason) {
+  console.log(' Sally wins with a score of ' + sally);
+
+} else if(jason > kelly && sally){
+  console.log('Jason wins with a score of ' + jason);
+}else{
+  console.log('its a tie, they are the same hieght and age')
 }
-
-
-var job = 'teacher';
-
-job = prompt('what does John do?');
-
-switch(job){
-  case 'teacher':
-    console.log('John teaches kids');
-    break;
-  case 'diver':
-    console.log(' john drives a cab in london');
-    break;
-  case 'cop':
-    console.log('john helps fight crime');
-    break;
-  default:
-    console.log('john does something else');
-}
-
-
-
-
-
 
 
 
