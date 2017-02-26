@@ -147,13 +147,10 @@ var ageFriendThree = 45;
 
 //score = height + age * 5
 
-var kelly;
-var sally;
-var jason;
 
-kelly = heightFriendOne + ageFriendOne * 5;
-sally = heightFriendTwo + ageFriendTwo * 5;
-jason = heightFriendThree+ ageFriendThree * 5;
+var kelly = heightFriendOne + ageFriendOne * 5;
+var sally = heightFriendTwo + ageFriendTwo * 5;
+var jason = heightFriendThree+ ageFriendThree * 5;
 console.log('kelly ' + kelly);
 console.log('sally ' + sally);
 console.log('jason ' + jason);
