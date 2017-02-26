@@ -18,30 +18,104 @@
 
 //Lecture: Variables 2
 
-var name = "John";
-var age =26 ;
+// var name = "John";
+// var age =26 ;
 
-console.log(name + age);
-console.log(age + age);
+// console.log(name + age);
+// console.log(age + age);
 
-var job, isMarried;
+// var job, isMarried;
 
-console.log(job);
+// console.log(job);
 
-job = 'teacher';
+// job = 'teacher';
+// isMarried = false;
+
+// console.log(name +' is a '+ age +' year old  '+ job  +'. ' + 'Is he married? ' +isMarried +'.');
+
+// age = 'thirty-six';
+// job = 'driver';
+
+// console.log(name +' is a '+ age +' year old  '+ job  +'. ' + 'Is he married? ' +isMarried +'.');
+
+
+// var lastName = prompt('what is the last name?')
+
+// console.log(lastName);
+
+// alert(name +' is a '+ age +' year old  '+ job  +'. ' + 'Is he married? ' +isMarried +'.');
+
+
+//Lecture: Operators
+
+// var now = 2016;
+
+// var birthYear = now - 26;
+
+// birthYear = now - 26 * 2;
+// //2016 - 52
+// //1964
+
+// console.log(birthYear);
+
+// var ageJohn = 30;
+// var ageMark = 30;
+
+// // ageJohn = ageMark = 3 + 5 * 4 - 6;
+// // console.log(ageJohn);
+
+
+// ageJohn = ageMark = (3 + 5) * 4 - 6;
+
+// ageJohn++;
+// ageMark *= 2;
+
+// console.log(ageJohn);
+// console.log(ageMark);
+
+////////////////////////////////////////////////////////
+//Lecture: If Else Statements
+
+var name = 'Adriana';
+var age = 29;
+var isMarried = 'yes';
+
+if (isMarried === 'yes'){
+  //if (false)
+  console.log(name +' is married!');
+} else{
+  console.log(name + ' will hopefully marry soon');
+}
+
 isMarried = false;
+// if(isMarried){
+//   console.log('yes');
+// } else {
+//   console.log('no');
+// }
 
-console.log(name +' is a '+ age +' year old  '+ job  +'. ' + 'Is he married? ' +isMarried +'.');
+isMarried = true;
+if(isMarried){
+  console.log('yes');
+}
+if (23 === '23'){
+  console.log('something to print');
+}
 
-age = 'thirty-six';
-job = 'driver';
-
-console.log(name +' is a '+ age +' year old  '+ job  +'. ' + 'Is he married? ' +isMarried +'.');
 
 
-var lastName = prompt('what is the last name?')
 
-console.log(lastName);
 
-alert(name +' is a '+ age +' year old  '+ job  +'. ' + 'Is he married? ' +isMarried +'.');
+
+
+
+
+
+
+
+
+
+
+
+
 
