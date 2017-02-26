@@ -160,8 +160,8 @@ console.log('jason ' + jason);
 
 if (kelly > sally && jason){
   console.log('Kelly Wins with a score of ' + kelly);
-  
-} else if (sally > kelly && jason) {
+
+} else if (sally > kelly && sally > jason) {
   console.log(' Sally wins with a score of ' + sally);
 
 } else if(jason > kelly && sally){
@@ -169,6 +169,14 @@ if (kelly > sally && jason){
 }else{
   console.log('its a tie, they are the same hieght and age')
 }
+
+
+
+
+
+
+
+
 
 
 
