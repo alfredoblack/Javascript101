@@ -76,31 +76,84 @@
 ////////////////////////////////////////////////////////
 //Lecture: If Else Statements
 
-var name = 'Adriana';
-var age = 29;
-var isMarried = 'yes';
+// var name = 'Adriana';
+// var age = 29;
+// var isMarried = 'yes';
 
-if (isMarried === 'yes'){
-  //if (false)
-  console.log(name +' is married!');
-} else{
-  console.log(name + ' will hopefully marry soon');
-}
-
-isMarried = false;
-// if(isMarried){
-//   console.log('yes');
-// } else {
-//   console.log('no');
+// if (isMarried === 'yes'){
+//   //if (false)
+//   console.log(name +' is married!');
+// } else{
+//   console.log(name + ' will hopefully marry soon');
 // }
 
-isMarried = true;
-if(isMarried){
-  console.log('yes');
+// isMarried = false;
+// // if(isMarried){
+// //   console.log('yes');
+// // } else {
+// //   console.log('no');
+// // }
+
+// isMarried = true;
+// if(isMarried){
+//   console.log('yes');
+// }
+// if (23 === '23'){
+//   console.log('something to print');
+// }
+
+
+//Lecture: Booolen logic and Switch
+
+var age = 31;
+
+
+if(age < 20){
+  console.log(' john is a teenager');
+} else if ( age >= 20 || age <30){
+  console.log('john is a young man');
+} else {
+  console.log('john is a man');
 }
-if (23 === '23'){
-  console.log('something to print');
+
+
+var job = 'teacher';
+
+job = prompt('what does John do?');
+
+switch(job){
+  case 'teacher':
+    console.log('John teaches kids');
+    break;
+  case 'diver':
+    console.log(' john drives a cab in london');
+    break;
+  case 'cop':
+    console.log('john helps fight crime');
+    break;
+  default:
+    console.log('john does something else');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
