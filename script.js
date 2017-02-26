@@ -172,47 +172,109 @@
 //Lecture : Functions
 
 
-function calculateAge(yearOfBirth){
-  var age = 2016 - yearOfBirth;
+// function calculateAge(yearOfBirth){
+//   var age = 2016 - yearOfBirth;
 
 
-  return age;
+//   return age;
+
+// }
+
+// var ageJohn = calculateAge(1990);
+// var ageMike = calculateAge(1960);
+// var ageMary = calculateAge(1945);
+// var ageAdri = calculateAge(1951);
+// console.log(ageJohn);
+// console.log(ageMike);
+// console.log(ageMary);
+
+// function yearsUntilRetirement(name, year){
+//   var age = calculateAge(year)
+//   var retirement = 65 - age;
+
+
+
+//   if (retirement === 0){
+
+//     console.log( name + ' retires this year!!!');
+  
+//   } else if (retirement >= 0){
+    
+
+//     console.log( name +' retires in ' +retirement + ' years.');
+
+//   } else {
+//     console.log(name + ' has been retired for ' + retirement + ' years.');
+//   }
+  
+// }
+
+// yearsUntilRetirement('John', 1990);
+// yearsUntilRetirement('Mike', 1969);
+// yearsUntilRetirement('Mary', 1945);
+// yearsUntilRetirement('Adri', 1951);
+
+
+
+//Lecture: Statements and expressions
+
+// function statement
+function someFun(par){
+  //code
+}
+
+
+//function expression - produces a value / outcome
+var someFun = function(par){
+
 
 }
 
-var ageJohn = calculateAge(1990);
-var ageMike = calculateAge(1960);
-var ageMary = calculateAge(1945);
-var ageAdri = calculateAge(1951);
-console.log(ageJohn);
-console.log(ageMike);
-console.log(ageMary);
+//expressions
+// 3+4
+//var x= 3
 
-function yearsUntilRetirement(name, year){
-  var age = calculateAge(year)
-  var retirement = 65 - age;
-
-
-
-  if (retirement === 0){
-
-    console.log( name + ' retires this year!!!');
-  
-  } else if (retirement >= 0){
-    
-
-    console.log( name +' retires in ' +retirement + ' years.');
-    
-  } else {
-    console.log(name + ' has been retired for ' + retirement + ' years.');
-  }
-  
+//statements
+if (x = 5){
+  //do something
 }
 
-yearsUntilRetirement('John', 1990);
-yearsUntilRetirement('Mike', 1969);
-yearsUntilRetirement('Mary', 1945);
-yearsUntilRetirement('Adri', 1951);
+
+//Lecture: Array
+
+var names = ['John', 'Jane', 'Mark'];
+var years = new Array(1990, 1969, 1948);
+
+console.log(names[2]);
+names[1]= 'Ben';
+console.log(names);
+
+var john = ['john', 'smith', 1990, 'designer', false];
+
+john.push('blue');
+john.unshift('Mr.');
+john.pop();
+john.shift();
+
+console.log(john);
+
+if (john.indexOf('teacher') === -1){
+  console.log('john is not a teacher');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
