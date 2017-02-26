@@ -136,36 +136,100 @@
 // }
 
 
-var heightFriendOne = 163;
-var ageFriendOne = 25;
+// var heightFriendOne = 163;
+// var ageFriendOne = 25;
 
-var heightFriendTwo = 207;
-var ageFriendTwo = 35;
+// var heightFriendTwo = 207;
+// var ageFriendTwo = 35;
 
-var heightFriendThree = 300;
-var ageFriendThree = 45;
+// var heightFriendThree = 300;
+// var ageFriendThree = 45;
 
-//score = height + age * 5
+// //score = height + age * 5
 
 
-var kelly = heightFriendOne + ageFriendOne * 5;
-var sally = heightFriendTwo + ageFriendTwo * 5;
-var jason = heightFriendThree+ ageFriendThree * 5;
-console.log('kelly ' + kelly);
-console.log('sally ' + sally);
-console.log('jason ' + jason);
+// var kelly = heightFriendOne + ageFriendOne * 5;
+// var sally = heightFriendTwo + ageFriendTwo * 5;
+// var jason = heightFriendThree+ ageFriendThree * 5;
+// console.log('kelly ' + kelly);
+// console.log('sally ' + sally);
+// console.log('jason ' + jason);
 
-if (kelly > sally && jason){
-  console.log('Kelly Wins with a score of ' + kelly);
+// if (kelly > sally && jason){
+//   console.log('Kelly Wins with a score of ' + kelly);
 
-} else if (sally > kelly && sally > jason) {
-  console.log(' Sally wins with a score of ' + sally);
+// } else if (sally > kelly && sally > jason) {
+//   console.log(' Sally wins with a score of ' + sally);
 
-} else if(jason > kelly && sally){
-  console.log('Jason wins with a score of ' + jason);
-}else{
-  console.log('its a tie, they are the same hieght and age')
+// } else if(jason > kelly && sally){
+//   console.log('Jason wins with a score of ' + jason);
+// }else{
+//   console.log('its a tie, they are the same hieght and age')
+// }
+
+
+
+//Lecture : Functions
+
+
+function calculateAge(yearOfBirth){
+  var age = 2016 - yearOfBirth;
+
+
+  return age;
+
 }
+
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1960);
+var ageMary = calculateAge(1945);
+var ageAdri = calculateAge(1951);
+console.log(ageJohn);
+console.log(ageMike);
+console.log(ageMary);
+
+function yearsUntilRetirement(name, year){
+  var age = calculateAge(year)
+  var retirement = 65 - age;
+
+
+
+  if (retirement === 0){
+
+    console.log( name + ' retires this year!!!');
+  
+  } else if (retirement >= 0){
+    
+
+    console.log( name +' retires in ' +retirement + ' years.');
+    
+  } else {
+    console.log(name + ' has been retired for ' + retirement + ' years.');
+  }
+  
+}
+
+yearsUntilRetirement('John', 1990);
+yearsUntilRetirement('Mike', 1969);
+yearsUntilRetirement('Mary', 1945);
+yearsUntilRetirement('Adri', 1951);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
